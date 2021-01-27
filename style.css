@@ -1,0 +1,16 @@
+html {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Bitter", serif;
+}
+
+body {
+  background-color: rgb(188, 233, 233);
+  border: 20px solid rgb(227, 240, 240);
+  margin: 0;
+}
+
+#presentation {
+  margin: 0 500px 0 500px;
+}
