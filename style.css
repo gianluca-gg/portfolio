@@ -75,11 +75,36 @@ body {
 
 .technologies {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
+  align-items: center;
+  gap: 30px 30px;
 }
 
 .technologies img {
-  width: 200px;
+  width: 150px;
+}
+
+.progettiContainer {
+}
+
+.progetto {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  padding: 100px;
+}
+
+.progettoTesto {
+  max-width: 50%;
+}
+
+.progettoFoto {
+  max-width: 50%;
+}
+
+.progettoFoto img {
+  max-width: 100%;
 }
