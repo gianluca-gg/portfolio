@@ -1,15 +1,33 @@
 html {
   margin: 0;
   box-sizing: border-box;
-  height: 100%;
   font-family: "Bitter", serif;
   font-weight: 400;
 }
 
 body {
+  box-sizing: border-box;
   background-color: rgb(227 250 250);
-  border: 20px solid rgb(255, 255, 255);
+  border-left: 20px solid rgb(255, 255, 255);
+  border-right: 20px solid rgb(255, 255, 255);
   margin: 0;
+}
+
+body:before {
+  top: 0;
+}
+body:after {
+  bottom: 0;
+}
+
+body:before,
+body:after {
+  content: "";
+  position: fixed;
+  background: rgb(255, 255, 255);
+  left: 0;
+  right: 0;
+  height: 20px;
 }
 
 #introPresentation {
