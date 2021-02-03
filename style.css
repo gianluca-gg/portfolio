@@ -198,3 +198,119 @@ footer {
   height: 100px;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 480px) {
+  #introPresentation {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  #name {
+    text-align: ;
+    font-size: 40px;
+    display: inline;
+  }
+
+  .imgContainer {
+    max-width: 100%;
+  }
+
+  #textIntroPresentation {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .titoli {
+    font-size: 40px;
+  }
+
+  .textPresentation {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .svgGuitar {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
+  .progetto {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .technologiesContainer {
+    display: block;
+  }
+
+  .technologies img {
+    width: 50px;
+  }
+
+  .technologiesGrid {
+    margin-left: 30px;
+  }
+
+  .technologiesContainer .sottolineo {
+    width: auto;
+  }
+
+  footer {
+    display: grid;
+    place-items: center;
+    background-color: #b5c7c7;
+    max-width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  footerp {
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #name {
+    font-size: 45px;
+  }
+
+  .technologies img {
+    width: 100px;
+  }
+
+  .technologiesContainer {
+    max-width: 50%;
+  }
+
+  .textPresentation {
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .svgGuitar {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
+  .progettoTesto {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .technologiesGrid {
+    margin-left: 15px;
+  }
+
+  .technologies img {
+    width: 35px;
+  }
+}
