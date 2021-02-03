@@ -1,0 +1,165 @@
+html {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: rgb(227 250 250);
+  border: 20px solid rgb(255, 255, 255);
+  margin: 0;
+}
+
+#introPresentation {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  padding: 100px;
+}
+
+#introIllustration {
+  height: auto;
+  max-width: 100%;
+}
+
+#name {
+  font-size: 70px;
+  margin: 0;
+}
+
+#textIntroPresentation {
+  max-width: 50%;
+}
+
+.imgContainer {
+  max-width: 50%;
+}
+
+.initialIcon {
+  width: 40px;
+  margin: 10px;
+}
+
+.presentation {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.textPresentation {
+  max-width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.guitarContainer {
+  max-width: 50%;
+}
+
+.svgGuitar {
+  max-width: 50%;
+  height: auto;
+  padding-left: 25%;
+}
+
+.technologiesContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.technologiesContainer .sottolineo {
+  width: 600px;
+}
+
+.technologies img {
+  width: 150px;
+}
+
+.technologiesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  align-items: center;
+  gap: 30px 30px;
+  margin-top: 40px;
+}
+
+.progettiContainer {
+}
+
+.progetto {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.progettoTesto {
+  max-width: 40%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.progettoFoto {
+  max-width: 50%;
+  margin-right: 100px;
+  border: #467373 8px solid;
+  box-shadow: 0 0 20px -10px hsl(187deg 97% 24%);
+  max-width: 35%;
+}
+
+.progettoFoto img {
+  max-width: 100%;
+}
+
+.veroNome {
+  color: #467373;
+  font-weight: bolder;
+}
+
+.titoli {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.sottolineo {
+  border: #467373 8px solid;
+  border-style: none none solid none;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.portfolio .titoli {
+  margin-bottom: 10px;
+}
+
+.portfolio .sottolineo {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 70px;
+}
+
+.titoliProgetti {
+  font-size: 2em;
+}
+
+.progettiContainer:nth-last-child() {
+  margin-top: 10px;
+}
+
+.progettoDescrizione {
+}

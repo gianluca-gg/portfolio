@@ -152,11 +152,11 @@ body {
 .portfolio .sottolineo {
   margin-left: 40%;
   margin-right: 40%;
-  margin-bottom: 70px;
 }
 
 .titoliProgetti {
-  font-size: 2em;
+  font-size: 2.5em;
+  margin-bottom: 5px;
 }
 
 .progettiContainer:nth-last-child() {
@@ -164,4 +164,19 @@ body {
 }
 
 .progettoDescrizione {
+}
+
+.progettiSott {
+  border: #467373 4px solid;
+  border-style: solid none none none;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  background-color: #b5c7c7;
+  max-width: 100%;
+  height: 100px;
+  margin-top: 50px;
 }
