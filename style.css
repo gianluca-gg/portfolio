@@ -153,35 +153,12 @@ body:after {
 }
 
 .veroNome {
+  width: 0;
   color: #467373;
   font-weight: bolder;
-  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
-}
-
-.titoli {
-  text-align: center;
-  font-size: 70px;
-  margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
 }
 
 .sottolineo {
@@ -190,6 +167,11 @@ body:after {
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.titoli {
+  text-align: center;
+  font-size: 70px;
 }
 
 .portfolio .titoli {

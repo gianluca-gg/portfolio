@@ -27,3 +27,10 @@ gsap.to(".due", {
   opacity: 1,
   x: 0,
 });
+
+var options = {
+  strings: ["Gianluca Gattuso."],
+  typeSpeed: 100,
+};
+
+var typed = new Typed(".veroNome", options);
