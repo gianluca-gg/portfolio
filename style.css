@@ -61,6 +61,10 @@ body:after {
   margin: 10px;
 }
 
+.initialIcon:hover {
+  fill: #467373;
+}
+
 .presentation {
   display: flex;
   flex-flow: column wrap;
@@ -136,12 +140,12 @@ body:after {
 
 .progettoFoto {
   max-width: 100%;
-  border: #467373 8px solid;
-  box-shadow: 0 0 20px -10px hsl(187deg 97% 24%);
 }
 
 .progettoFoto img {
   max-width: 100%;
+  border: #467373 8px solid;
+  box-shadow: 0 0 20px -10px hsl(187deg 97% 24%);
 }
 
 .uno {
